@@ -32,21 +32,10 @@ $$
 
 here the tags $\eqref{eq:dis}$
 
-<iframe sandbox="" seamless
-    src="https://soundcloud.com/turboknight">
-</iframe>
-
 sdg er eg
  re
  ger 
 sd g
 dfv ds f
 
-[video](https://soundcloud.com/turboknight?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing ':include :type=iframe width=400px height=400px')
 
-
-[bandcamp](https://newretrowave.bandcamp.com/track/flashbacks-arcade-high-remix ':include :type=iframe width=400px height=400px')
-
-
-
-[music](https://www.heise.de ':include :type=iframe')
