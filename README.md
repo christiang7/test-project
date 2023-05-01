@@ -7,12 +7,12 @@ sd
 fs
 
 [Next](next.md)
-[hier](weiter/hier.md)
+[hier](next/hier.md)
 sd
 fsd
  f
  sd 
- 
+ 4444444444444444444444
 
 Inline mode: $J(\theta )= \frac{1}{2m}\left( {{\theta }^{T}}{{X}^{T}}X\theta -{{\theta}^{T}}{{X}^{T}}y-{{y}^{T}}X\theta + {{y}^{T}}y \right) $ equation.
 

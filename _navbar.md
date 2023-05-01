@@ -1,9 +1,9 @@
 <!-- _navbar.md -->
 
 * [Home](README.md)
-
-  * [Home](README.md)
-  * [zim-template-program](zim-template-program.md)
-
+* [Blog](Blog.md)
+  * [Eintrag 010523](Blog/E_010523.md)
 * [Next](next.md)
   * [Next](next.md)
+  * [hier](next/hier.md)
+  * [zim-template-program](next/zim-template-program.md)
