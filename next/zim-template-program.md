@@ -2,7 +2,7 @@
 Created Montag [Zettelkasten:2022:11:28]()
 Backlink [GedankenspeicherCoding](../GedankenspeicherCoding.md)
 
-* ☑ **zim-template-program**  >  2277-11-11
+* ☑ **zim-template-program**
 	* ☐ hinzufügen von git, damit automatisch nen git repo erzeugt wird
 	* ☐ Struktur überdenken mit README Datei und das die Datei in das Repo erzeugt wird und nicht auf der Ebene der txt Datei
 	* ☐ probieren ob yad Ersatz für zenity funktioniert 
@@ -96,8 +96,8 @@ echo -e "Created $(date +[[Zettelkasten:%Y:%m:%d]])" >> "${folder}"/"${File}".md
 echo -e "Backlink [[$wikipath:$FullFilename]]" >> "${folder}"/"${File}".md
 #"${filepath}.md
 #echo -e "$([[Zettelkasten:%Y:%m:%d]])" >> "${folder}"/"${File}".md
-echo -e "[[../]]" >> "${folder}"/"${File}".md
-echo -e "[*] ${tags} ** ${File} ** ${source} >  2277-11-11" >> "${folder}"/"${File}".md
+echo -e "" >> "${folder}"/"${File}".md
+echo -e "[*] ${tags} ** ${File} ** ${source} " >> "${folder}"/"${File}".md
 echo -e "\n${additiontext}" >> "${folder}"/"${File}".md
 echo -e "\n''noweb.py -R${File}.${extens} ${File}.md > ${File}.${extens} && echo 'fertig'''" >> "${folder}"/"${File}".md
 echo -e "\n\n''chmod u+x ${File}.${extens} && ln -sf "${folder}"/${File}.${extens} ~/.local/bin/${File}.${extens} && echo 'fertig'''" >> "${folder}"/"${File}".md
