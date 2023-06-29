@@ -8,10 +8,14 @@ Backlink [GedankenspeicherCoding](../GedankenspeicherCoding.md)
 	* ☐ probieren ob yad Ersatz für zenity funktioniert 
 
 
-``noweb.py -Rzim-template-program.sh zim-template-program.md > zim-template-program.sh && echo "fertig"``
+```bash
+noweb.py -Rzim-template-program.sh zim-template-program.md > zim-template-program.sh && echo "fertig"
+```
 
 
-``chmod u+x zim-template-program.sh && ln -sf /home/christian/Gedankenspeicher/Gedankenspeicherwiki/Zettelkasten/ZetteL/GedankenspeicherCoding/zim-template-program.sh ~/.local/bin/zim-template-program.sh && echo "fertig"``
+```bash
+chmod u+x zim-template-program.sh && ln -sf /home/christian/Gedankenspeicher/Gedankenspeicherwiki/Zettelkasten/ZetteL/GedankenspeicherCoding/zim-template-program.sh ~/.local/bin/zim-template-program.sh && echo "fertig"
+```
 
 ```bash
 Das komplette Programm
@@ -51,10 +55,10 @@ File="Program"
 extens="sh"
 
 abfrage=$(zenity --forms \
-       --width 500 \
-       --title "New Program?" \
-       --text "Necessary Informations:" \
-       --add-entry "Filename" --add-entry "Extension Standard sh")
+	   --width 500 \
+	   --title "New Program?" \
+	   --text "Necessary Informations:" \
+	   --add-entry "Filename" --add-entry "Extension Standard sh")
        
 if [ ! $? -eq 1 ]; 
 then
@@ -72,10 +76,10 @@ tags=$(echo "$3")
 additiontext=$(echo "$4")
 
 abfrage=$(zenity --forms \
-       --width 500 \
-       --title "Noch etwas hinzufügen?" \
-       --text "Noch etwas hinzufügen?" \
-       --add-entry "Quelle Standard: Christian Gößl" --add-entry "Schlagwörter" --add-entry "Weiteres")
+	   --width 500 \
+	   --title "Noch etwas hinzufügen?" \
+	   --text "Noch etwas hinzufügen?" \
+	   --add-entry "Quelle Standard: Christian Gößl" --add-entry "Schlagwörter" --add-entry "Weiteres")
 if [[ ! "$abfrage" = "" ]]; 
 then
 	source=$(echo $abfrage | cut -s -d "|" -f 1)
