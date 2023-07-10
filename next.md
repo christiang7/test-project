@@ -1,6 +1,6 @@
 # New site
 
-[pdf](2307.03222.pdf)
+[pdf](next/2307.03222.pdf ':ignore')
 
 ## hello you
 sdcfs
